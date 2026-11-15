@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or modify hydrolight-batch in your research, please cite it using the metadata below."
+title: "hydrolight-batch: Template-Driven Parallel HydroLight 6.0 Simulation Pipeline"
+version: 1.0.0
+date-released: 2026-11-15
+license: MIT
+authors:
+  - family-names: "Masud-Ul-Alam"
+    given-names: "Md"
+    orcid: "https://orcid.org/0000-0003-3036-8167"
+    affiliation: "UGA Skidaway Institute of Oceanography"
+repository-code: "https://github.com/masud-ocn-du/hydrolight-batch"
+keywords:
+  - HydroLight
+  - Radiative Transfer
+  - Remote Sensing Reflectance
+  - Hyperspectral
+  - Multispectral
+  - Total Suspended Solids

@@ -1,0 +1,26 @@
+# Python build & cache artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated simulation datasets and HydroLight runtime files
+*.csv
+*.xlsx
+*.dis
+*.tmp
+fort.*
+temp.*
+backend_w*/
+.DS_Store
+.DS_Store

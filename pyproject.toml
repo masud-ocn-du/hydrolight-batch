@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydrolight-batch"
+version = "1.0.0"
+description = "Template-driven parallel HydroLight 6.0 batch simulation pipeline for generating hyperspectral and multispectral Rrs, IOP, and TSS datasets."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Md Masud-Ul-Alam"}
+]
+maintainers = [
+    {name = "Md Masud-Ul-Alam"}
+]
+keywords = [
+    "hydrolight",
+    "radiative-transfer",
+    "ocean-color",
+    "remote-sensing",
+    "hyperspectral",
+    "multispectral",
+    "water-quality",
+    "total-suspended-solids",
+    "machine-learning"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.23.0",
+    "pandas>=1.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/masud-ocn-du/hydrolight-batch"
+Repository = "https://github.com/masud-ocn-du/hydrolight-batch"
+Issues = "https://github.com/masud-ocn-du/hydrolight-batch/issues"
+
+[project.scripts]
+hydrolight-batch = "hydrolight_batch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
