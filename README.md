@@ -170,4 +170,4 @@ Each completed simulation appends one row to the target CSV file:
 
 If you use or adapt `hydrolight-batch` in research datasets or publications, please cite this software (see [`CITATION.cff`](CITATION.cff)):
 
-> Masud-Ul-Alam, Md (2026). *hydrolight-batch: Template-Driven Parallel HydroLight 6.0 Simulation Pipeline (v1.0.0)*. Skidaway Institute of Oceanography, University of Georgia. https://github.com/masud-ocn-du/hydrolight-batch
+> Masud-Ul-Alam, Md & Rivero-Calle, Sara (2026). *hydrolight-batch: Template-Driven Parallel HydroLight 6.0 Simulation Pipeline (v1.0.0)*. Skidaway Institute of Oceanography, University of Georgia. https://github.com/masud-ocn-du/hydrolight-batch
